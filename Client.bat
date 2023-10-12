@@ -11,7 +11,7 @@ set dir=!versions_dir!\!latest_version!\ClientSettings
 mkdir "!dir!"
 cd "!dir!"
 
-curl -o "!dir!\ClientAppSettings.json" https://raw.githubusercontent.com/KRiMZ0001/Roblox/main/ClientAppSettings.json
+curl -o "!dir!\ClientAppSettings.json" 
 
 echo source - https://github.com/cincotres
 
